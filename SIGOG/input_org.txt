@@ -1,0 +1,29 @@
+This is an example of an input file for both, SiGOGprec and SiGOGbcst software.
+The input file must be named input.txt and must contain the following data in 
+the specified format and in the specified order. SiGOG will simulate as many 
+receivers as sequentially written in this input file. Please note SiGOG reads data
+looking for a double star at beginning of the record. 
+
+Information and format that input file must have:
+- Station monument coordinates in km. Format: (2X,3(F14.7,1X))
+- Station name and observations we want to generate. Format:(2X,A4,1X,5A2)
+- Elevation mask (degrees) AND generation of tropospheric error (S/N). Format:(2X,F4.1,1X,A1)
+- Date and initial epoch. Format:(2X,I4,4(1X,I2),1X,F11.8)
+- Final epoch. Format: (2X,2(I2,1X),F11.8) 
+- Time interval between observations. Format: (2X,F8.2)
+- Date of creation of RINEX observation file. Format: (2X,A20)
+- H/E/N offsets from the monument to the antenna reference point. Format: (8X, 3F8.4)
+
+
+  ______._______ ______._______ ______._______  
+**  2319.2407994  -4411.7439232  -3966.4841523  station coordinates (km)
+**vbca C1P1P2L1L2                               station name and observations to simulate
+**10.0 S                                        elevation mask (degrees) AND tropospheric delay simulation (S/N)
+**2003 05 13 00 00 00.00000000                  date and initial epoch
+**23 45 00.00000000                             final epoch
+**  900.00                                      time interval between observations
+**(27-APR-03 18:53)                             date of creation of RINEX observation file
+**        1.0707  0.0000   0.0000               antenna parameters.
+
+The SiGOG program will read until end of input file to see if there is any
+other simulation to do.

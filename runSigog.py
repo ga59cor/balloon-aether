@@ -1,3 +1,3 @@
 from subprocess import call
-call(['./SIGOG'])
-#call(["ls", "-l"])
+
+call(['./SIGOG/SIGOG'])           #run the SIGOG code with file input.txt

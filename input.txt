@@ -1,8 +1,0 @@
-**  xxxx.xxxxxxx  yyyy.yyyyyyy  zzzz.zzzzzzz
-**stn0 C1P1P2L1L2                             
-**ee.e S                                      
-**yyyy mm dd hh mm ss.00000000                  
-**hh mm ss.00000000                             
-**  ttt.00                                      
-**(14-MAY-18 14:41)                             
-**        1.0707  0.0000   0.0000  

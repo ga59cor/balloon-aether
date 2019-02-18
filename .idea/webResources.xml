@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebResourcesPaths">
+    <contentEntries>
+      <entry url="file://$PROJECT_DIR$">
+        <entryData>
+          <resourceRoots>
+            <path value="file://$PROJECT_DIR$/pyBalloon" />
+            <path value="file://$PROJECT_DIR$/SIGOG" />
+            <path value="file://$PROJECT_DIR$/astra_simulator/astra" />
+            <path value="file://$PROJECT_DIR$/astra_simulator/examples/astra_output_floating" />
+            <path value="file://$PROJECT_DIR$/astra_simulator" />
+          </resourceRoots>
+        </entryData>
+      </entry>
+    </contentEntries>
+  </component>
+</project>

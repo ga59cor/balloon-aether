@@ -32,6 +32,9 @@ if __name__ == '__main__':
     df.head()
 
     plt.plot (refractivities, heights, 'r--')
+    plt.xlabel("Refractivities (N units)")
+    plt.ylabel("Heights (km)")
+    plt.grid ()
     plt.show ()
 
 

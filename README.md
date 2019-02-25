@@ -1,18 +1,22 @@
-# balloonNap
-Use a weather balloon to profile atmosphere using GNSS receivers
+# balloon-aether
+Methodology of atmospheric refractive index profiling using a hot air balloon-based GNSS receiver.
 
-The idea is to compare signals from low elevation GNSS satellites and compare them with no-troposphere model signals to compute atmospheric profile at a given location. The GNSS receiver, however, is placed on a weather balloon.
+main.py contains the current code.
+simplenetratmos.py contains function definitions for calculating parameters for a shell-based atmosphere simulation.
 
-I. The first part of the project is to simulate the flight trajectory of a weather balloon and generate the RINEX file for this trajectory. 
+ppp-tools-python3 contains Python 3 compatible library of PPP Tools.
+astra simulator contains working code for simulation of hot air balloon trajectories.
+SIGOG is a FORTRAN based software SIGOG (Simulated GPS Observation Generator) by by Elsa Mohino et al to simulate unbiased or error-controlled Global Positioning System (GPS) observations at a static location.
 
-==SIGOG==
-We start with a FORTRAN based software SIGOG (Simulated GPS Observation Generator) by by Elsa Mohino et al to simulate unbiased or error-controlled Global Positioning System (GPS) observations at a static location. The runSigog.py script is intended to make system calls to the SIGOGbcst.for code with given x,y,z ECEF-coordinates in the following sequence:
+## Requirements
 
-1. balloonTraj.py generates the simulated trajectory of the balloon. We use the ==pnuu/pyBalloon.py== code from GitHub for this.
-2. runSigog.py reads the simulated trajectory and generates input.txt files for every epoch of the flight at a user-defined time interval.
-3. runSigog.py then calls the SIGOGbcst.for FORTRAN code through system calls for each input file generated, and corresponding RINEX files are generated; one for each set of epochs with same (x,y,z) coordinates.
-4. cleanUp.py combines all the RINEX files into a single file, and cleans up all the intermediate input.txt files.
+Python
+Pandas
+Numpy
+Matplotlib
+Scipy
 
-More stuff to come. Feel free to contribute! Contact me at ga59cor@gmail.com
+## Contributing
+The most recent work is on the develop branch. Look out for unmerged code on the master branch. Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-
+Please make sure to update tests as appropriate.

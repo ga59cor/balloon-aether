@@ -1,6 +1,8 @@
 pandas
 matplotlib
 numpy
+skaero.atmosphere
+scipy
 scipy.stats
 pygps
 gpxpy

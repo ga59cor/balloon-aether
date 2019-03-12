@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/astra_simulator/astra" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/astra_simulator" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ppp-tools_python3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/results" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/pyBalloon" />
     </content>
     <orderEntry type="inheritedJdk" />

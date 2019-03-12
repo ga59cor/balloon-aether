@@ -10,7 +10,7 @@ SIGOG is a FORTRAN based software SIGOG (Simulated GPS Observation Generator) by
 
 ## Requirements
 
-Python
+Python 3
 Pandas
 Numpy
 Matplotlib

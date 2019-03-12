@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d346b53b-81fd-4871-821c-fcd20523dbdf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/common/igs08.atx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/common/rtklib_opts1.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/doc/glab_help_5.1.3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/doc/glab_options.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/doc/glab_output_format.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/doc/rnx2rtkp_help.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/gpsppp/1day.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/gpsppp/gpsppp.flt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/gpsppp/gpsppp.met" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/gpsppp/gpsppp.olc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/gpsppp/gpsppp.svb_gnss_yrly" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ppp-tools_python3/gpsppp/gpsppp.trf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIGOG/SIGOG" beforeDir="false" afterPath="$PROJECT_DIR$/SIGOG/SIGOG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIGOG/SIGOGbcst.for" beforeDir="false" afterPath="$PROJECT_DIR$/SIGOG/SIGOGbcst.f90" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIGOG/balloonNap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIGOG/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SIGOG/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIGOG/runSigog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SIGOG/vbca1330.03O" beforeDir="false" afterPath="$PROJECT_DIR$/SIGOG/vbca1330.03O" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyBalloon" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/runSigog.py" beforeDir="false" afterPath="$PROJECT_DIR$/runSigog.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neutralatmosphere1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neutralatmosphere2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tropdelaymodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/balloonNap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/balloonNap.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/createInput.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simpleneutratmos.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpleneutratmos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,12 +25,13 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/balloon_aether$example_floating_flight.coverage" NAME="example_floating_flight Coverage Results" MODIFIED="1550487418327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/astra_simulator/examples" />
-    <SUITE FILE_PATH="coverage/balloon_aether$balloonNap.coverage" NAME="balloonNap Coverage Results" MODIFIED="1547049596051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/balloon_aether$balloonNap.coverage" NAME="balloonNap Coverage Results" MODIFIED="1552135361613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/balloonNap$example_main.coverage" NAME="example_main Coverage Results" MODIFIED="1527802307552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyBalloon" />
-    <SUITE FILE_PATH="coverage/balloon_aether$test.coverage" NAME="test Coverage Results" MODIFIED="1541070775964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/balloon_aether$test.coverage" NAME="test Coverage Results" MODIFIED="1551145018589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/balloon_aether$example_main.coverage" NAME="example_main Coverage Results" MODIFIED="1550485635948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pyBalloon" />
     <SUITE FILE_PATH="coverage/balloon_aether$lla2ecef.coverage" NAME="lla2ecef Coverage Results" MODIFIED="1543190795096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/astra_simulator/examples" />
     <SUITE FILE_PATH="coverage/balloon_aether$example_forecast.coverage" NAME="example_forecast Coverage Results" MODIFIED="1550505581422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/astra_simulator/examples" />
+    <SUITE FILE_PATH="coverage/balloon_aether$neutralatmosphere2.coverage" NAME="neutralatmosphere2 Coverage Results" MODIFIED="1552340025236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -59,79 +49,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="simpleneutratmos.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpleneutratmos.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tropdelaymodel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tropdelaymodel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neutralatmosphere1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neutralatmosphere1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="neutralatmosphere2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/neutralatmosphere2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="120" column="20" lean-forward="true" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+              <folding>
+                <element signature="e#1#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ppp-tools_python3/README.md">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-718" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ppp_glab.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ppp-tools_python3/ppp_glab.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-830">
-              <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="204">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ftp_tools.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ppp-tools_python3/ftp_tools.py">
+      <file leaf-file-name="available_balloons_parachutes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/astra_simulator/astra/available_balloons_parachutes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-954" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gpstime.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ppp-tools_python3/gpstime.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3368" />
-          </provider>
+      <file leaf-file-name="drag_helium.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/astra_simulator/astra/drag_helium.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="igs_ftp.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ppp-tools_python3/igs_ftp.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1506" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ppp_glab.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ppp_glab.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ppp-tools/ppp_glab.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1991">
-              <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
+            <state relative-caret-position="3162">
+              <caret line="186" selection-start-line="186" selection-end-line="186" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="astra_output_floating_progress.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/astra_simulator/examples/astra_output_floating_progress.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="jdutil.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ppp-tools_python3/jdutil.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2490">
-              <caret line="304" column="4" selection-start-line="304" selection-start-column="4" selection-end-line="304" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/astra_simulator/setup.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -139,6 +150,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -150,13 +162,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pyBalloon/doc/__init__.py" />
         <option value="$PROJECT_DIR$/pyBalloon/README" />
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/pyBalloon/pyb_io.py" />
         <option value="$PROJECT_DIR$/pyBalloon/get_gfs.py" />
         <option value="$PROJECT_DIR$/astra_simulator/bin/astra-sim" />
@@ -178,6 +194,17 @@
         <option value="$PROJECT_DIR$/astra_simulator/astra/GFS.py" />
         <option value="$PROJECT_DIR$/astra_simulator/examples/example_forecast.py" />
         <option value="$PROJECT_DIR$/ppp-tools_python3/ppp_common.py" />
+        <option value="$PROJECT_DIR$/createInput.py" />
+        <option value="$PROJECT_DIR$/ppp-tools_python3/ppp_glab.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/tropdelaymodel.py" />
+        <option value="$PROJECT_DIR$/simpleneutratmos.py" />
+        <option value="$PROJECT_DIR$/refractivityprofile.py" />
+        <option value="$PROJECT_DIR$/test.ipynb" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/neutralatmosphere2.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -191,16 +218,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="640" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="877" />
+    <option name="width" value="1280" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,35 +235,18 @@
               <item name="balloon-aether" type="b2602c69:ProjectViewProjectNode" />
               <item name="balloon-aether" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="balloon-aether" type="b2602c69:ProjectViewProjectNode" />
-              <item name="balloon-aether" type="462c0819:PsiDirectoryNode" />
-              <item name="astra_simulator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="balloon-aether" type="b2602c69:ProjectViewProjectNode" />
-              <item name="balloon-aether" type="462c0819:PsiDirectoryNode" />
-              <item name="astra_simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="balloon-aether" type="b2602c69:ProjectViewProjectNode" />
-              <item name="balloon-aether" type="462c0819:PsiDirectoryNode" />
-              <item name="astra_simulator" type="462c0819:PsiDirectoryNode" />
-              <item name="examples" type="462c0819:PsiDirectoryNode" />
-              <item name="astra_output_floating" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -263,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.example_forecast">
+  <component name="RunManager" selected="Python.neutralatmosphere2">
     <configuration name="balloonNap" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="balloonNap" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -295,25 +305,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="astra-sim" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="balloonNap" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/astra_simulator/bin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/astra_simulator/bin/astra-sim" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -376,25 +367,6 @@
       <option name="EMULATE_TERMINAL" value="true" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="example_target_landing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="balloonNap" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/astra_simulator/examples" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/astra_simulator/examples/example_target_landing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="lla2ecef" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="balloonNap" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -414,22 +386,60 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="neutralatmosphere2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="balloonNap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neutralatmosphere2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="balloonNap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/neutralatmosphere1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.example_main" />
       <item itemvalue="Jupyter Notebook.balloonNap" />
-      <item itemvalue="Python.astra-sim" />
       <item itemvalue="Python.example_forecast" />
       <item itemvalue="Python.example_floating_flight" />
-      <item itemvalue="Python.example_target_landing" />
       <item itemvalue="Python.lla2ecef" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.neutralatmosphere2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.neutralatmosphere2" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.example_forecast" />
         <item itemvalue="Python.example_floating_flight" />
         <item itemvalue="Python.lla2ecef" />
-        <item itemvalue="Python.example_target_landing" />
-        <item itemvalue="Python.astra-sim" />
       </list>
     </recent_temporary>
   </component>
@@ -444,6 +454,21 @@
       <option name="presentableId" value="Default" />
       <updated>1527727511732</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added main.py and simple neutral atmosphere simulation class file">
+      <created>1551055470618</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551055470618</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated main.py and readme.md">
+      <created>1551058251618</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551058251618</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -460,19 +485,20 @@
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32935324" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.39701492" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32935324" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49946696" weight="0.28121212" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.279602" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49946696" visible="true" weight="0.39701492" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4989339" weight="0.39701492" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.13272922" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.24498567" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.32942432" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.5554371" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -480,37 +506,72 @@
       <window_info anchor="right" x="0" y="0" width="310" height="678" id="Documentation" order="5" side_tool="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32935324" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32935324" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.279602" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49946696" weight="0.28121212" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32935324" />
+      <window_info anchor="right" x="0" y="0" width="310" height="678" id="Documentation" order="5" side_tool="true" weight="0.32904148" />
+      <window_info anchor="right" id="Database" order="3" weight="0.24498567" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.4989339" weight="0.39701492" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" weight="0.39701492" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.5554371" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added main.py and simple neutral atmosphere simulation class file" />
+    <MESSAGE value="Updated main.py and readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated main.py and readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>9</line>
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/test.py</url>
-          <line>7</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/pyBalloon/example_main.py</url>
           <line>40</line>
@@ -751,6 +812,66 @@
           <line>26</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere1.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere1.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere1.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere1.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere1.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere1.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere1.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere1.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere2.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere2.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere2.py</url>
+          <line>120</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/neutralatmosphere2.py</url>
+          <line>126</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
@@ -759,53 +880,56 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="57" />
+      <option name="time" value="81" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>simEnvironment.load()</expression-string>
+        <expression-string>na2df</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>data</expression-string>
+        <expression-string>plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>lons</expression-string>
+        <expression-string>plt.plot(heights, N, 'r--')
+plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>lats</expression-string>
+        <expression-string>plt.plot(heights, e_pa, 'r--')
+plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>v_msgs</expression-string>
+        <expression-string>plt.plot(heights, p_pa, 'r--')
+plt.show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>v_wind</expression-string>
+        <expression-string>plt.plot(heights, p_pa, 'r--').show()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>u_msgs</expression-string>
+        <expression-string>plt.plot(heights, p_pa, 'r--')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pg.open(fname).select(name='U component of wind')</expression-string>
+        <expression-string>plt.savefig()</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>pg.open(fname).seek(0)</expression-string>
+        <expression-string>slt_45</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -849,48 +973,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SIGOG/inputFiles/input_mun.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SIGOG/inputFiles/input_vbc0.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SIGOG/inputFiles/input.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input_model.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astra_simulator/examples/astra_output_floating/out.kml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SIGOG/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createInput.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astra_simulator/examples/example_target_landing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/astra_simulator/examples/lla2ecef.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/astra_simulator/examples/astra_output_floating/out.csv">
       <provider editor-type-id="csv-text-editor">
         <state relative-caret-position="6171">
@@ -927,9 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1345">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,23 +1039,8 @@
         <state relative-caret-position="-3368" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyBalloon/example_main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyBalloon/pyb_io.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-          <folding>
-            <element signature="e#51#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pyBalloon/example_main.py" />
+    <entry file="file://$PROJECT_DIR$/pyBalloon/pyb_io.py" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.1/python_stubs/70233441/datetime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -1053,13 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/astra_simulator/astra/simulator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3995">
-          <caret line="249" column="32" selection-start-line="249" selection-start-column="32" selection-end-line="249" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/astra_simulator/examples/example_forecast.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1071,13 +1128,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ppp-tools/ftp_tools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ppp-tools_python3/bipm_ftp.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1102,9 +1153,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1119,23 +1167,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ppp-tools_python3/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-718" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppp-tools_python3/ppp_glab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-830">
-          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ppp-tools_python3/ftp_tools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
+        <state>
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -1143,24 +1179,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ppp-tools_python3/gpstime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3368" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ppp-tools_python3/igs_ftp.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1506" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ppp-tools/ppp_glab.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1991">
-          <caret line="186" lean-forward="true" selection-start-line="186" selection-end-line="186" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/astra_simulator/examples/astra_py_error.log">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1175,13 +1197,106 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ppp-tools_python3/jdutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2490">
+        <state relative-caret-position="5134">
           <caret line="304" column="4" selection-start-line="304" selection-start-column="4" selection-end-line="304" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/astra_simulator/setup.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp-tools_python3/ppp_glab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astra_simulator/astra/simulator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3995">
+          <caret line="249" column="32" selection-start-line="249" selection-start-column="32" selection-end-line="249" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astra_simulator/astra/drag_helium.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/astra_simulator/astra/available_balloons_parachutes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-954" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tropdelaymodel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleneutratmos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neutralatmosphere1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/neutralatmosphere2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="120" column="20" lean-forward="true" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+          <folding>
+            <element signature="e#1#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ppp-tools/ppp_glab.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

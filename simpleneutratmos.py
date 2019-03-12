@@ -46,13 +46,13 @@ class SimpleNeutralAtmos:
     @staticmethod
     def mappingfn(elevangle, cutoffangle=0):
         """
-        Define a basic mapping function based on satellite elevation- and receiver cutoff angles
-        :param elevangle: elevation angle between a receiver and a GNSS satellite
+        Define a simple sine-based mapping function based on satellite elevation- and receiver cutoff angles
+        :param elevangle: elevation angle between a receiver and a GNSS satellite = pi/2 - zenith angle [rad]
         :param cutoffangle: angle below which satellite signals are ignored, default 0
         :return: weight for slant delay
         """
         _mappingweight = 0
         if elevangle >= cutoffangle:
-            _mappingweight = 1 / math.sqrt(1 - (math.cos(elevangle) / 1.001) ** 2)
+            _mappingweight = 1 / math.sin(elevangle)
 
         return _mappingweight
